@@ -1,15 +1,19 @@
 (footprint "DP7070" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 33b1dc1f-2035-46b8-914c-593241405871)
   )
-  (fp_text value "DP7070" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "DP7070" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 23cf65dd-351c-43b1-b522-55fadc02a21b)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "https://labbook.skippy.org.uk/projects/kicad/sick_of_beige" (at 0 39.37 unlocked) (layer "Cmts.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 4671b52d-1714-45a5-80e2-53ee7e66a138)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 94390178-43a4-4e44-aef2-1acf353f51c4)
   )

@@ -1,15 +1,19 @@
 (footprint "DP8080" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
   (tedit 0)
-  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3d97e40a-8b67-4099-9118-0129c9ab63c3)
   )
-  (fp_text value "DP8080" (at 0 1 unlocked) (layer "F.Fab")
+  (fp_text value "DP8080" (at 0 1 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 7dde5c1f-fb9c-4576-8147-dadeefc03b11)
   )
-  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
+  (fp_text user "https://labbook.skippy.org.uk/projects/kicad/sick_of_beige" (at 0 43.18 unlocked) (layer "Cmts.User")
+    (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 6bbfad26-f78c-45a7-8413-7e5af24c62e1)
+  )
+  (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab") hide
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp c7c84c21-96e8-47a6-9d36-fd67642fd5f9)
   )
