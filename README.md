@@ -20,15 +20,7 @@ Create git controlled folder for new project and add common Kicad libraries.
     cd my_new_project
     git init
     git submodule add git@github.com:PhilipMcGaw/kicad_template_common.git common
-
-If you want a slightly easier path… you can make use of my kicad template; navigate to the KiCad documents folder,
-
-    * Mac: ~/Documents/KiCad/7.0/template/
-    * Windows:
-    * Linux:
-
-git clone ssh git@github.com/PhilipMcGaw/kicad_template
-
+    
 #### Step 2
 
 This step creates a file used by git to filter out unneccesary files being archived.
@@ -44,6 +36,16 @@ This step creates a file used by git to filter out unneccesary files being archi
     ~*" > .gitignore
     git add .gitignore\
     git commit -a -m "Setup common libraries for my Kicad project."
+
+If you want a slightly easier path… you can make use of my [kicad template](https://github.com/PhilipMcGaw/kicad_template); navigate to the KiCad documents folder:
+
+  * Mac: ''~/Documents/KiCad/7.0/template/''
+  * Windows:
+  * Linux:
+
+git clone ssh git@github.com/PhilipMcGaw/kicad_template
+
+
 
 <!---
 If reading this with a text editor, remove prefixing spaces before entering commands:
@@ -67,40 +69,8 @@ Step 3
 
 Create a new Kicad project from common template.
 
-**(Copy generic project template files to your new project folder (named appropriately, CrazyCircuitProject for example). Your kicad project files will live in this folder but using this template as a starting point saves time and provides default setup to devtank libaries, standard design rules, devtank drawing templates etc...**
 
 
-    cp -r common/NewProject_template CrazyProject
-    
-    git add CrazyProject
-    git commit -a -m "Add Kicad project files."*
-
-<!---
-If reading this with a text editor, remove prefixing spaces before entering commands:
-
-cp -r common/NewProject_template CrazyProject
-
-git add CrazyProject
-git commit -a -m "Add Kicad project files."*
---->
-
-
-Step 4
---------
-
-Add git remote repository for backup and sharing.
-
-**(Ask IT for new git repo on the corporate server (and/or create a new github repository). In this example it's "my_new_kicad_project")**
-
-    git remote add origin ssh.devtank.co.uk:/git/my_new_kicad_project
-    git push -u origin master # Push new git project to new empty git on server.
-
-<!---
-If reading this with a text editor, remove prefixing spaces before entering commands:
-
-git remote add origin ssh.devtank.co.uk:/git/my_new_kicad_project
-git push -u origin master # Push new git project to new empty git on server.
---->
 
 
 Cloning an existing project
@@ -203,9 +173,6 @@ git add * # Make sure any new files are added.
 git commit -a -m "What my changes to the common libraries where."
 git push # Push changes to central repo.
 --->
-
-
-
 
 
   * [Sick of Beige](http://dangerousprototypes.com/docs/Sick_of_Beige_compatible_cases) PCB footprints.
