@@ -23,7 +23,7 @@ Create git controlled folder for new project and add common Kicad libraries.
 
 If you want a slightly easier path… you can make use of my kicad template; navigate to the KiCad documents folder,
 
-    * Mac: ~/Documents/KiCad/6.0/template/
+    * Mac: ~/Documents/KiCad/7.0/template/
     * Windows:
     * Linux:
 
