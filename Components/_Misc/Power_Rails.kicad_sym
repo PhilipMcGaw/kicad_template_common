@@ -1365,7 +1365,7 @@
     )
     (symbol "VAC_L1_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "VAC" (effects (font (size 1.27 1.27))))
+        (name "VAC_L1" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
@@ -1413,7 +1413,7 @@
     )
     (symbol "VAC_L2_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "VAC" (effects (font (size 1.27 1.27))))
+        (name "VAC_L2" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
@@ -1461,7 +1461,7 @@
     )
     (symbol "VAC_L3_1_1"
       (pin power_in line (at 0 0 90) (length 0) hide
-        (name "VAC" (effects (font (size 1.27 1.27))))
+        (name "VAC_L3" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
