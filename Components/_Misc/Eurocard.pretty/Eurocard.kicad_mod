@@ -177,12 +177,12 @@
   (pad "32a" thru_hole circle (at -154.3 -89.37 90) (size 1.50114 1.50114) (drill 0.8001) (layers "*.Cu" "*.Mask") (tstamp f08225d9-82f5-4c0e-823f-b2c6c06c6a91))
   (pad "32b" thru_hole circle (at -151.76 -89.37 90) (size 1.50114 1.50114) (drill 0.8001) (layers "*.Cu" "*.Mask") (tstamp ab0b753a-ea22-4afc-b35f-817ea60b01da))
   (pad "32c" thru_hole circle (at -149.22 -89.37 90) (size 1.50114 1.50114) (drill 0.8001) (layers "*.Cu" "*.Mask") (tstamp 99a39ab4-12a4-4a73-834c-dbb310dc9c78))
-  (model "${KIPRJMOD}/DIN41612_90deg.wrl"
+  (model "${KIPRJMOD}/common/Components/_Misc/Eurocard.3dshapes/DIN41612_90deg.wrl"
     (offset (xyz -151.8 50 -1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
   )
-  (model "${KIPRJMOD}/DIN41612_90deg.step"
+  (model "${KIPRJMOD}/common/Components/_Misc/Eurocard.3dshapes/DIN41612_90deg.step"
     (offset (xyz -151.8 50 -1.5))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))
