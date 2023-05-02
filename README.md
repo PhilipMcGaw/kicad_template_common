@@ -34,8 +34,10 @@ This step creates a file used by git to filter out unneccesary files being archi
     *.kicad_sch-bak
     */*-backups/*.zip
     ~*" > .gitignore
-    git add .gitignore\
+    git add .gitignore
     git commit -a -m "Setup common libraries for my Kicad project."
+
+It is worth copying the files ``fp-lib-table`` and ``sym-lib-table`` into the root project folder as this will cause changes in the library to be updated in your project. 
 
 If you want a slightly easier path… you can make use of my [kicad template](https://github.com/PhilipMcGaw/kicad_template); navigate to the KiCad documents folder:
 
