@@ -1,6 +1,6 @@
-(footprint "Eurocard" (version 20221018) (generator pcbnew)
+(footprint "Eurocard 96 Pin 100 x 160" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
-  (attr smd)
+  (attr through_hole)
   (fp_text reference "REF**" (at -12.446 -0.762 unlocked) (layer "F.SilkS") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 6c1b98e7-f258-409b-b1a7-3b82aefc89d1)
