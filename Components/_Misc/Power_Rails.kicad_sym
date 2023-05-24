@@ -778,7 +778,7 @@
     )
     (symbol "+5V0_1_1"
       (pin power_in line (at 0 0 0) (length 0) hide
-        (name "+5V5" (effects (font (size 1.27 1.27))))
+        (name "+5V0" (effects (font (size 1.27 1.27))))
         (number "1" (effects (font (size 1.27 1.27))))
       )
     )
