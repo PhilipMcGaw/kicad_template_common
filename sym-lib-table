@@ -14,4 +14,5 @@
   (lib (name "Connectors - Wire to Board")(type "KiCad")(uri "${KIPRJMOD}/common/Components/Connectors/Wire to Board.kicad_sym")(options "")(descr "Wire to board connectors"))
   (lib (name "Connectors - Redcube")(type "KiCad")(uri "${KIPRJMOD}/common/Components/Connectors/Redcube.kicad_sym")(options "")(descr "Würth Elektronik Red Cub Board to Wire High current connectors"))
   (lib (name "Eurocard")(type "KiCad")(uri "${KIPRJMOD}/common/Components/_Misc/Eurocard.kicad_sym")(options "")(descr "Eurocard header DevTank"))
+  (lib (name "Relays - Panasonic - DZ-S Relays")(type "KiCad")(uri "${KIPRJMOD}/common/Components/Relays/Panasonic - DZ-S Relays.kicad_sym")(options "")(descr ""))
 )
